@@ -1,0 +1,35 @@
+{
+  "name": "waterlock-twitter-auth",
+  "version": "0.0.1",
+  "description": "twitter authentication method for waterlock",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidrivera/waterlock-twitter-auth"
+  },
+  "author": "David Rivera <david.r.rivera193@gmail.com>",
+  "contributors": [ 
+    {
+      "name": "David Rivera",
+      "email": "david.r.rivera193@gmail.com"
+    } 
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidrivera/waterlock-twitter-auth/issues"
+  },
+  "homepage": "https://github.com/davidrivera/waterlock-twitter-auth",
+  "dependencies" : {
+    "oauth": "~0.9.12"
+  },
+  "devDependencies":{
+    "mocha": "*",
+    "should": "*",
+    "proxyquire": "*",
+    "coveralls": "*",
+    "istanbul": "*",
+    "jshint": "*"
+  }
+}
