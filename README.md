@@ -14,11 +14,13 @@ npm install waterlock-twitter-auth
 set the following option in your `waterlock.json` config file
 
 ```json
-"authMethod":{
-	"name": "waterlock-twitter-auth",
-	"consumerKey": "your-consumer-key",
-	"consumerSecret": "your-consumer-secret"
-}
+"authMethod":[
+	{
+		"name": "waterlock-twitter-auth",
+		"consumerKey": "your-consumer-key",
+		"consumerSecret": "your-consumer-secret"
+	}
+]
 ```
 
-Direct your user to `/auth/login` will initiate the oauth request. The callback uri is `/auth/oauth` if successfuly authenticated a user record will be created if a user is not found one will be created using the [waterlines](https://github.com/balderdashy/waterline) `findOrCreate` method
+Direct your user to `/auth/login` will initiate the oauth request. The callback uri is `/auth/twitter_oauth` if successfuly authenticated a user record will be created if a user is not found one will be created using the [waterlines](https://github.com/balderdashy/waterline) `findOrCreate` method
