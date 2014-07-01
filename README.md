@@ -6,6 +6,11 @@ waterlock-twitter-auth is a module for [waterlock](https://github.com/davidriver
 providing a twitter authentication method for users either based on username.
 
 ## Usage
+
+```bash
+npm install waterlock-twitter-auth
+```
+
 set the following option in your `waterlock.json` config file
 
 ```json

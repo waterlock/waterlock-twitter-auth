@@ -3,5 +3,5 @@
 	"accessToken":"https://api.twitter.com/oauth/access_token",
 	"userProfile":"https://api.twitter.com/1.1/users/show.json",
 	"authenticate":"https://api.twitter.com/oauth/authenticate",
-	"callbackUri":"/auth/oauth"
+	"callbackUri":"/auth/twitter_oauth"
 }
