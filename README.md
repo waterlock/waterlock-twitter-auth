@@ -2,7 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/davidrivera/waterlock-twitter-auth.svg?style=flat)](https://travis-ci.org/davidrivera/waterlock-twitter-auth) [![NPM version](http://img.shields.io/npm/v/waterlock-twitter-auth.svg?style=flat)](http://badge.fury.io/js/waterlock-twitter-auth) [![Dependency Status](http://img.shields.io/gemnasium/davidrivera/waterlock-twitter-auth.svg?style=flat)](https://gemnasium.com/davidrivera/waterlock-twitter-auth)
 
-waterlock-twitter-auth is a module for [waterlock](https://github.com/davidrivera/waterlock)
+waterlock-twitter-auth is a module for [waterlock](http://waterlock.ninja/)
 providing a twitter authentication method for users either based on username.
 
 ## Usage
