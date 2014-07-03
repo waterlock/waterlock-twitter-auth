@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/davidrivera/waterlock-twitter-auth/issues"
   },
-  "homepage": "http://davidrivera.github.io/waterlock/",
+  "homepage": "http://waterlock.ninja/",
   "dependencies" : {
     "oauth": "~0.9.12"
   },

@@ -11,14 +11,14 @@ providing a twitter authentication method for users either based on username.
 npm install waterlock-twitter-auth
 ```
 
-set the following option in your `waterlock.json` config file
+set the following option in your `waterlock.js` config file
 
-```json
-"authMethod":[
+```js
+authMethod:[
 	{
-		"name": "waterlock-twitter-auth",
-		"consumerKey": "your-consumer-key",
-		"consumerSecret": "your-consumer-secret"
+		name: "waterlock-twitter-auth",
+		consumerKey: "your-consumer-key",
+		consumerSecret: "your-consumer-secret"
 	}
 ]
 ```
