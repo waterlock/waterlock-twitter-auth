@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/davidrivera/waterlock-twitter-auth",
   "dependencies" : {
-    "oauth": "~0.9.12"
+    "oauth": "~0.9.12",
+    "lodash": "2.4.1"
   },
   "devDependencies":{
     "mocha": "*",
