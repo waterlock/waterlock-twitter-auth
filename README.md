@@ -14,7 +14,7 @@ npm install waterlock-twitter-auth
 set the following option in your `waterlock.js` config file
 
 ```js
-authMethod:[
+authMethod: [
 	{
 		name: "waterlock-twitter-auth",
 		consumerKey: "your-consumer-key",

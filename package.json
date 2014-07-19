@@ -1,6 +1,6 @@
 {
   "name": "waterlock-twitter-auth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "twitter authentication method for waterlock",
   "scripts": {
     "test": "make test"
